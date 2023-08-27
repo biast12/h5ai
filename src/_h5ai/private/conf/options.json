@@ -7,8 +7,6 @@
     */
     "passhash": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
 
-
-
     /*
     Resources.
 
@@ -25,8 +23,6 @@
             "//fonts.googleapis.com/css?family=Ubuntu:300,400,700%7CUbuntu+Mono:400,700"
         ]
     },
-
-
 
     /*
     General view options.
@@ -65,7 +61,7 @@
         "fastBrowsing": true,
         "fonts": ["Ubuntu", "Roboto", "Helvetica", "Arial", "sans-serif"],
         "fontsMono": ["Ubuntu Mono", "Monaco", "Lucida Sans Typewriter", "monospace"],
-        "hidden": ["^\\.", "^_h5ai"],
+        "hidden": ["^\\.", "^_h5ai", "^.sync", "^syncpage"],
         "hideFolders": false,
         "hideIf403": true,
         "hideParentFolder": false,
@@ -78,8 +74,6 @@
         "unmanaged": ["index.html", "index.htm", "index.php"],
         "unmanagedInNewWindow": false
     },
-
-
 
     /*** Extensions (in alphabetical order) ***/
 
@@ -115,7 +109,7 @@
     */
     "custom": {
         "enabled": true,
-        "stopSearchingAtRoot": true
+        "stopSearchingAtRoot": false
     },
 
     /*
@@ -147,7 +141,7 @@
     - ignorecase: boolean, ignore case
     */
     "filter": {
-        "enabled": false,
+        "enabled": true,
         "advanced": true,
         "debounceTime": 100,
         "ignorecase": true
@@ -162,7 +156,7 @@
     - type: string, "php" (sloooow) or "shell-du" (sloow)
     */
     "foldersize": {
-        "enabled": true,
+        "enabled": false,
         "type": "php"
     },
 
@@ -186,9 +180,9 @@
     */
     "info": {
         "enabled": true,
-        "show": false,
+        "show": true,
         "qrcode": true,
-        "qrFill": "#999",
+        "qrFill": "#000",
         "qrBack": "#fff"
     },
 
@@ -234,11 +228,9 @@
     Show an image preview on click.
 
     - types: array of strings
-    - size: number, sample size, or false for original size
     */
     "preview-img": {
         "enabled": true,
-        "size": false,
         "types": ["img", "img-bmp", "img-gif", "img-ico", "img-jpg", "img-png", "img-raw", "img-svg"]
     },
 
@@ -282,6 +274,15 @@
             "txt-xml": 1
         }
     },
+
+    /*
+    Object-Tag for e.g. PDFs
+    */
+    "preview-object": {
+      "enabled": true,
+      "types": ["x-pdf"]
+    },
+
 
     /*
     Play a video preview on click.
@@ -355,7 +356,7 @@
     - mov: array of strings
     - doc: array of strings
     - delay: number, delay in milliseconds after "dom-ready" before thumb-requesting starts
-    - size: number, size in pixel of the generated thumbnails
+    - size: number, height in pixel of the generated thumbnails
     - exif: boolean, use included EXIF thumbs if possible
     - chunksize: int, number of thumbs per request
     */
@@ -374,7 +375,7 @@
     Replace window title with current breadcrumb.
     */
     "title": {
-        "enabled": true
+        "enabled": false
     },
 
     /*

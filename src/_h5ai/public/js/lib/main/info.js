@@ -24,13 +24,11 @@ const loginTpl =
         </div>`;
 const supportTpl =
         `<div id="support">
-            Show your support with a donation!
-            <div class="paypal">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                    <input type="hidden" name="cmd" value="_s-xclick"/>
-                    <input type="hidden" name="hosted_button_id" value="8WSPKWT7YBTSQ"/>
-                    <input type="image" src="${resource.image('paypal')}" name="submit" alt="PayPal"/>
-                </form>
+            Support me by joining my Patreon
+            <div class="Patreon">
+                <a href="https://www.patreon.com/Biast12" target="_blank">
+                    <input type="image" src="${resource.image('patreon')}" name="submit" alt="Patreon"/>
+                </a>
             </div>
         </div>`;
 const setup = config.setup;

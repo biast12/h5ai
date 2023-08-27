@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 4096 4096" style="enable-background:new 0 0 4096 4096;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#000300;}
+	.st1{fill:#FFFFFF;}
+</style>
+<polygon class="st0" points="0,0 0,4096 2048,4096 2048,3153.5 2048,613.6 2048,0 "/>
+<polyline class="st1" points="2048,0 4096,0 4096,4096 2048,4096 "/>
+<g>
+	<polygon class="st0" points="2416.1,311.3 2051.4,311.3 3955.5,3840 	"/>
+	<polygon class="st1" points="783.1,3840 984.8,3362.1 180.7,3840 	"/>
+	<polygon class="st1" points="1713.4,311.3 180.7,3840 2048,311.3 	"/>
+	<path class="st0" d="M2730.7,2374.1L2289,1358.4c-100.4-230.4-167.3-439.8-234.2-644h-6.7v1659.7H2730.7L2730.7,2374.1z"/>
+	<polygon class="st0" points="3955.5,3840 3122.6,3355.4 3333,3840 	"/>
+	<path class="st1" d="M1813.8,1353.2l-441.7,1020.9H2048V714.4h-6.7C1974.4,923.8,1900.8,1138.5,1813.8,1353.2L1813.8,1353.2z"/>
+	<polygon class="st0" points="2048,2730.1 3122.6,3355.4 2851.1,2730.1 	"/>
+	<polygon class="st1" points="984.8,3362.1 2048,2730.1 1251.6,2730.1 	"/>
+</g>
+</svg>
