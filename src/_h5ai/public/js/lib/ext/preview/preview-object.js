@@ -33,7 +33,6 @@ const load = item => {
 
 const init = () => {
     if (settings.enabled) {
-        console.log("registered");
         preview.register(settings.types, load, updateGui);
     }
 };
