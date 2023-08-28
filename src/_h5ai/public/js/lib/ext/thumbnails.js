@@ -13,6 +13,7 @@ const settings = Object.assign({
     exif: false,
     chunksize: 20
 }, allsettings.thumbnails);
+const landscapeRatio = 4 / 3;
 
 
 const queueItem = (queue, item) => {
