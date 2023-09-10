@@ -15,7 +15,7 @@ const TPL_TOPBAR =
             <a id="backlink2" href="/sync" title="Download the full files with Resilio Sync and keep it automatically updated">
                 <img src="/_h5ai/public/images/ui/ResilioLogo.png" id="topBarImage" alt="ResilioSync">
             </a>
-            <a id="backlink2" href="https://biast12.site" title="The Archives">
+            <a id="backlink2" href="." title="The Archives">
                 <img src="/_h5ai/public/images/favicon/archive_logo.png" id="topBarImage" alt="TheArchives">
             </a>
         </div>`;
