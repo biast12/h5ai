@@ -1,4 +1,4 @@
-name: Nightly release
+name: Upload Release
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v3.0.2
       with:
         fetch-depth: 1
-    
+
     - name: Build with npm
       uses: actions/setup-node@v3
       with:
@@ -28,26 +28,26 @@ jobs:
       if: steps.commitswithintime.outputs.has-new-commits-within-time != 'false'
       uses: vimtor/action-zip@v1
       with:
-        files: build/_h5ai
-        dest: _h5ai.zip
+        files: build
+        dest: h5ai.zip
 
-    - name: Upload Nightly build
+    - name: Upload Release Build
       if: steps.commitswithintime.outputs.has-new-commits-within-time != 'false'
       uses: WebFreak001/deploy-nightly@v2.0.0
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       with:
-        upload_url: https://uploads.github.com/repos/biast12/h5ai/releases/118815966/assets{?name,label}
-        release_id: 118815966
-        asset_path: ./_h5ai.zip
-        asset_name: _h5ai.zip
+        upload_url: https://uploads.github.com/repos/biast12/h5ai/releases/134204146/assets{?name,label}
+        release_id: 134204146
+        asset_path: ./h5ai.zip
+        asset_name: h5ai.zip
         asset_content_type: application/zip
         max_releases: 1
 
-    - name: Update 'nightly' tag
+    - name: Update Release
       if: steps.commitswithintime.outputs.has-new-commits-within-time != 'false'
       uses: richardsimko/update-tag@v1.0.5
       with:
-        tag_name: 'nightly'
+        tag_name: 'Release'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
