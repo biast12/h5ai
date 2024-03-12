@@ -24,8 +24,8 @@ requires [`node 10.0+`][node] to be installed, might work on other
 configurations).
 
 ~~~sh
-> npm install
-> npm run build
+npm install
+npm run build
 ~~~
 
 
