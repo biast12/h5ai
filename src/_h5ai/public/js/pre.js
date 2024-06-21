@@ -24,6 +24,5 @@
     assert('promise', is_fn(win.Promise));
     // assert('xhr', is_fn(win.XMLHttpRequest)); // is object in safari
     assert('xhr', win.XMLHttpRequest);
-    console.log("(DEBUG) This is your browser language: " + navigator.language.toLowerCase() + "." || "(DEBUG) This is your browser language: " + navigator.browserLanguage.toLowerCase() + ".");
 }(this));
 /* eslint-enable */

@@ -56,8 +56,6 @@ const update = lang => {
     }
 
     const sel = 'selected';
-    console.log("(DEBUG) This is your language: " + lang.isoCode + " - " + lang.lang.charAt(0).toUpperCase() + lang.lang.slice(1) + ".");
-    console.log("(DEBUG) Lang config: ", lang)
     dom('#langs option').rmAttr(sel).rmProp(sel);
     dom('#langs .' + currentLang.isoCode).attr(sel, '').prop(sel, true);
 
