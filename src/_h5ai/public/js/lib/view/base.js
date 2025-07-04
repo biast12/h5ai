@@ -9,7 +9,7 @@ const TPL_TOPBAR =
                 <div>Join my</div>
                 <div>Patreon</div>
             </a>
-            <a id="backlink2" href="https://discord.gg/ERFffj9Qs7" title="Join my Discord support server for updates on maintenance about the archive or if you need help">
+            <a id="backlink2" href="https://biast12.com/support" title="Join my Discord support server for updates on maintenance about the archive or if you need help">
                 <img src="/_h5ai/public/images/ui/DiscordLogo.png" id="topBarImage" alt="DiscordSupportServer">
             </a>
             <a id="backlink2" href="/sync" title="Download the full files with Resilio Sync and keep it automatically updated">

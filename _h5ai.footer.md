@@ -16,7 +16,6 @@ Old Apex builds ↓
 <a href="https://oldbuilds.biast12.site" target="_blank">Oldbuilds.Biast12.site</a>
 <br><br>
 My Patreon: <a href="http://patreon.com/Biast12" target="_blank">Patreon.com/Biast12</a>
+https://biast12.com/supportMy Main/News Twitter: <a href="https://twitter.com/Biast12" target="_blank">Twitter.com/Biast12</a>
 <br>
-My Main/News Twitter: <a href="https://twitter.com/Biast12" target="_blank">Twitter.com/Biast12</a>
-<br>
-Support Discord server: <a href="https://discord.gg/ERFffj9Qs7" target="_blank">Discord.gg/ERFffj9Qs7</a>
+Support Discord server: <a href="https://biast12.com/support" target="_blank">Discord.gg/ERFffj9Qs7</a>
